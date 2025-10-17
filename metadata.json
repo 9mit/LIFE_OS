@@ -1,0 +1,5 @@
+{
+  "name": "LifeOS - Personal Intelligence Hub",
+  "description": "An offline-first personal dashboard to upload, analyze, and chat with your data. It generates summaries, trends, and quick answers, all computed locally in your browser with zero cloud dependencies.",
+  "requestFramePermissions": []
+}

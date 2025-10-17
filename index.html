@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeOS - Offline Personal Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        background-color: #f4f4f5;
+      }
+
+      :root.dark {
+        color-scheme: dark;
+        background-color: #09090b;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background-color: transparent;
+        scroll-behavior: smooth;
+      }
+
+      ::selection {
+        background: linear-gradient(135deg, rgba(99, 102, 241, 0.65), rgba(59, 130, 246, 0.65));
+        color: #fff;
+      }
+
+      ::-webkit-scrollbar {
+        width: 0.6rem;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, rgba(79, 70, 229, 0.6), rgba(14, 165, 233, 0.6));
+        border-radius: 999px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.546.0",
+    "papaparse": "https://aistudiocdn.com/papaparse@^5.5.3",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "zustand/": "https://aistudiocdn.com/zustand@^5.0.8/",
+    "zustand": "https://aistudiocdn.com/zustand@^5.0.8",
+    "dexie": "https://aistudiocdn.com/dexie@^4.2.1",
+    "nanoid": "https://aistudiocdn.com/nanoid@^5.1.6",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "react-chartjs-2": "https://aistudiocdn.com/react-chartjs-2@^5.3.0",
+    "chart.js": "https://aistudiocdn.com/chart.js@^4.5.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
